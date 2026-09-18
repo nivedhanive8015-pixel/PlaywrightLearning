@@ -1,0 +1,54 @@
+[{
+  "employeeName": "Rebecca Harmony",
+  "leaveType": "CAN - Bereavement",
+  "fromDate": {
+    "month": "June",
+    "year": "2026",
+    "date": "1"
+  },
+  "toDate": {
+    "month": "December",
+    "year": "2026",
+    "date": "31"
+  },
+
+  "Partial Days" : "All Days",
+   
+   "Duration" : "Specify Time",
+
+  "fromTime": {
+    "hour": 9,
+    "minute": 0,
+    "period": "AM"
+  },
+  "toTime": {
+    "hour": 5,
+    "minute": 0,
+    "period": "PM"
+  },
+  "comment": "Testing Assign Leave"
+},
+
+{
+  "employeeName" :"Orange  Test",
+  "leaveType" :"CAN - FMLA", 
+
+  "fromDate" :{
+    "month" :"August",
+    "year" :"2026",
+    "date" : "1"
+  },
+
+  "toDate" :{
+    "month" :"September",
+    "year" : "2026",
+    "date" :"1"
+  },
+  "Partial Days" :"Start Day Only",
+  "Start Day" : "Half Day - Morning",
+  "comment" : "Testing with different option"
+
+}
+]
+
+
