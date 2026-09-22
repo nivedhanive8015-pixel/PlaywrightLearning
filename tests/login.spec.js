@@ -11,7 +11,7 @@ test('verify the login functionality' , async({page})=>{
     await expect (page.getByRole('textbox' ,{name: "Password"})).toHaveValue("admin123");
     await page.getByRole('button',{name: "Login"}).click();
     await expect(page.getByRole("heading" , {name : "Dashboard"})).toBeVisible();
-    await page.pause();
+  
     
    
 });
